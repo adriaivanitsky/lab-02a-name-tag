@@ -22,17 +22,26 @@ body {
 
 p {
 background: white;
-height: 70px;
+height: 80px;
 color: black;
 display: flex;
 justify-content: center;
 align-items:center;
 font-family: 'Monoton', cursive;
 font-size: 200%;
+margin: 0;
 }
 
 h1, h2 {
     margin: 0
     
 
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 250%;
 }
