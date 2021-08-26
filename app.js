@@ -1,6 +1,25 @@
-bad.code
+//get element that holds the nametag name
+const nameElement = document.getElementById('name');
+//get the button
+const updateButton = document.getElementById('update-button');
+//get the input
+const nameInput = document.getElementById('name-input');
 
-/*simply a test to see if eslint is working correctly.
-if i hover my cursor over "code" it tells me i am missing
-a semi colon. helpful for learning wtf to code when u don't
-know shit!*/
+
+//user clicks on the button
+updateButton.addEventListener('click', () => {
+
+    //get the text in the input
+
+    const name = nameInput.value;
+    //update the name element with the text
+    nameElement.textContent = name;
+
+    const greenButton = document.getElementById('green');
+
+    greenButton.addEventListener('click', () => {
+        document.getElementById('id').style.backgroundColor = 'green';
+
+    });
+   
+});

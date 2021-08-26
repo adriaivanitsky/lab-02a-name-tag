@@ -14,17 +14,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Monoton&family=Rampart+One&display=swap" rel="stylesheet">
 </head>
 <body>
+<section class="inputs">
+    <label>
+        Name:
+        <input id="name-input"/>
+    </label>
+    <button id="update-button">Update</button>
+</section>
 
 <div class="paper">
-    <div class="tag"><center><h1>HELLO</h1></center>
+    
+    <div id='tag' class="tag"><center><h1>HELLO</h1></center>
         <center><h2>my name is</h2></center>
        
-        <center><p><em>ADRIA</em></p></center>
-    
+        <center><p><em id="name">ADRIA</em></p></center>
+
     
     </div>
 </div>
+<div class="buttons">
+    <button id='green'>green</button>
+    <button id='pink'>pink</button>
+    <button id='aquamarine'>aqua</button>
+</div>
+<script src="app.js" type="module"></script>
+<footer>
 
-<footer></footer>
+</footer>
 </body>
 </html>
